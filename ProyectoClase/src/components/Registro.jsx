@@ -11,7 +11,6 @@ export const Registro = () => {
       <div className='w-screen h-screen bg-center' style={ {backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat'}}>
 <div  className="bg-[#9E47E2] pt-10 w-screen h-screen bg-opacity-30 flex justify-start flex-col items-center">
 <div>
-<h1 className='font-bold text-5xl text-white shadow-lg shadow-cyan-500/80'>Callejeando</h1>
 
 </div>
 <div className='flex  w-2/3 h-3/4 pt-10 '>
