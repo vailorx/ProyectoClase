@@ -1,14 +1,11 @@
-import Inicio from './Paginas/Inicio'
 import './App.css'
-
+import { RouterPrincipal } from './routers/RouterPrincipal'
 
 function App() {
 
 
   return (
-    <>
-     <Inicio />
-    </>
+     <RouterPrincipal /> 
   )
 }
 

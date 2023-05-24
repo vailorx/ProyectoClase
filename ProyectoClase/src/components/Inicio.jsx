@@ -1,20 +1,12 @@
 
 import '../App.css'
 import background from '../images/iniciobg1.jpg'
-import Login from './Login'
-import ReactDOM from 'react-dom/client'
+
 import { useEffect } from "react";
 import React, { useState } from 'react';
 
-const Inicio = () => {
-function moveToLogin() {
-  ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-      <Login />
-    </React.StrictMode>,
-  )
- 
-}
+export const Inicio = () => {
+
 
 const [data, setData] = useState([]);
 useEffect(() => {
@@ -40,7 +32,7 @@ fetchData();
 
 </div>
 <div className='h-2/3 w-screen flex justify-center items-center'>
-<button className="font-bold mt-30 btn btn-outline btn-warning w-1/3" onClick={moveToLogin}>Entrar </button>
+<button className="font-bold mt-30 btn btn-outline btn-warning w-1/3" >Entrar </button>
 {data.map((item) => (
         <p key={item.id}>{item.id}{item.nombre}</p>
         
@@ -51,5 +43,3 @@ fetchData();
     </div>
   )
 }
-
-export default Inicio

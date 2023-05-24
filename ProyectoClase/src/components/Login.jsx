@@ -1,16 +1,9 @@
 
 import '../App.css'
 import background from '../images/loginbg.jpg'
-import ReactDOM from 'react-dom/client'
-import React from 'react'
-import Registro from './Registro';
-const Login = () => {
+
+export const Login = () => {
   function moveToLogin() {
-    ReactDOM.createRoot(document.getElementById('root')).render(
-      <React.StrictMode>
-        <Registro />
-      </React.StrictMode>,
-    )
   }
    
   return (
@@ -40,5 +33,3 @@ const Login = () => {
     </div>
   )
 }
-
-export default Login
