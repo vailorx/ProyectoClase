@@ -3,6 +3,7 @@ import {Routes, Route, NavLink, BrowserRouter, Navigate, useNavigate} from 'reac
 import {Inicio} from '../components/Inicio';
 import {Login} from '../components/Login';
 import {Registro} from '../components/Registro';
+import {Explorar} from '../components/Explorar';
 export const RouterPrincipal = () => {
     /*
     {Futuro footer}
@@ -42,7 +43,7 @@ export const RouterPrincipal = () => {
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Explorar</a></li>
+      <li><NavLink to="/explorar">Explorar</NavLink></li>
       <li tabIndex={0}>
             <a>
           Login
@@ -63,6 +64,7 @@ export const RouterPrincipal = () => {
             <Route path='/inicio' element={<Inicio />}/>
             <Route path='/login' element={<Login />}/>
             <Route path='/registro' element={<Registro />}/>
+            <Route path='/explorar' element={<Explorar />}/>
             <Route path='/redirigir' element={<Navigate to="/inicio" />} />
             <Route path='*' element={(
                 <>
