@@ -35,11 +35,11 @@ data.map((item) => (
       <div className='w-screen h-screen bg-center' style={ {backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat'}}>
 <div  className="bg-[#9E47E2] w-screen h-screen bg-opacity-30">
 <div className='flex justify-center'>
-<h1 className='flex justify-center mt-20 font-bold text-5xl text-white shadow-lg shadow-cyan-500/80'>Callejeando</h1>
+<h1 className='flex justify-center mt-20 text-5xl font-bold text-white shadow-lg shadow-cyan-500/80'>Callejeando</h1>
 
 </div>
-<div className='h-2/3 w-screen flex justify-center items-center'>
-<NavLink to="/login" className="font-bold mt-30 btn btn-outline btn-warning w-1/3" >Entrar </NavLink>
+<div className='flex items-center justify-center w-screen h-2/3'>
+<NavLink to="/login" className="w-1/3 font-bold mt-30 btn btn-outline btn-warning" >Entrar </NavLink>
 
 
   
