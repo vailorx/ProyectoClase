@@ -1,8 +1,8 @@
 import React from 'react'
-import Banner from './herramientasGenerales/Banner.jsx'
-import Footer from './herramientasGenerales/Footer.jsx'
-import data from "../data.js"
-import { ListaGeneral } from './ListaGeneral.jsx'
+import Banner from '../herramientasGenerales/Footerybanner/Banner.jsx'
+import Footer from '../herramientasGenerales/Footerybanner/Footer.jsx'
+import data from "../../data.js"
+import { ListaGeneral } from '../Listas/ListaGeneral.jsx'
 export const Explorar = () => {   
   return(
     <>

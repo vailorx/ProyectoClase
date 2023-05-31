@@ -1,6 +1,6 @@
 
-import '../App.css'
-import background from '../images/iniciobg1.jpg'
+import '../../App.css'
+import background from '../../images/iniciobg1.jpg'
 import {NavLink} from 'react-router-dom';
 import { useEffect } from "react";
 import React, { useState } from 'react';

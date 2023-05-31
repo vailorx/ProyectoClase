@@ -1,6 +1,6 @@
 
-import '../App.css'
-import background from '../images/loginbg.jpg'
+import '../../App.css'
+import background from '../../images/loginbg.jpg'
 import {NavLink, useNavigate, useParams} from 'react-router-dom';
 export const Login = () => {
   const navegar = useNavigate();

@@ -1,7 +1,7 @@
-import background from '../../images/banner.jpg'
+import background from '../../../images/banner.jpg'
 export const Banner = (props) => {
   let backgroundResult;
-  if(props.url === "../../images/banner.jpg"){
+  if(props.url === "../../../images/banner.jpg"){
     backgroundResult = background;
   }
   return (

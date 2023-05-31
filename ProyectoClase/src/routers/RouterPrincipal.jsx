@@ -1,10 +1,10 @@
 import React from 'react'
 import {Routes, Route, NavLink, BrowserRouter, Navigate} from 'react-router-dom';
-import {Inicio} from '../components/Inicio';
-import {Login} from '../components/Login';
-import {Registro} from '../components/Registro';
-import {Explorar} from '../components/Explorar';
-import {QueHacerHoy} from '../components/QueHacerHoy';
+import {Inicio} from '../components/Paginas/Inicio';
+import {Login} from '../components/Paginas/Login';
+import {Registro} from '../components/Paginas/Registro';
+import {Explorar} from '../components/Paginas/Explorar';
+import {QueHacerHoy} from '../components/Paginas/QueHacerHoy';
 export const RouterPrincipal = () => {
 
   return (

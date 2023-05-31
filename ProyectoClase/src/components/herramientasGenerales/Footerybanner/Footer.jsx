@@ -1,5 +1,4 @@
 import React from 'react';
-import background from '../../images/banner.jpg';
 export const Footer = () => {
     
   return (

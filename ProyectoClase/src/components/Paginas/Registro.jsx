@@ -1,6 +1,6 @@
 
-import '../App.css'
-import background from '../images/loginbg.jpg'
+import '../../App.css'
+import background from '../../images/loginbg.jpg'
 export const Registro = () => {
   function moveToLogin() {
 

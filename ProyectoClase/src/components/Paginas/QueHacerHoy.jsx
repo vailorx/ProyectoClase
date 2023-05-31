@@ -1,7 +1,7 @@
-import background from '../images/gps.jpg'
+import background from '../../images/gps.jpg'
 import { useEffect, useState } from 'react';
-import data from "../data.js"
-import { ListaConFiltro } from './ListaConFiltro';
+import data from "../../data.js"
+import { ListaConFiltro } from '../Listas/ListaConFiltro';
 export const QueHacerHoy = () => {   
 
     const [position, setPosition] = useState(null);
