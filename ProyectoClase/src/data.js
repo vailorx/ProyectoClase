@@ -9,7 +9,8 @@ export default [
         "Precio": "€€€€",
         "Tipo": "Japones",
         "Titulo": "Kinu",
-        "Valoracion": 4.6
+        "Valoracion": 4.6,
+        "Imagen": "kinu"
       },
       {
         "CoordenadaX": 37.393476166055308,
@@ -19,7 +20,8 @@ export default [
         "Precio": "€€€",
         "Tipo": "Coreano",
         "Titulo": "Hans",
-        "Valoracion": 4.7
+        "Valoracion": 4.7,
+        "Imagen": "hans"
       },
       {
         "CoordenadaX": 37.387787336602315,
@@ -29,7 +31,8 @@ export default [
         "Precio": "€€",
         "Tipo": "Hamburgueseria",
         "Titulo": "Burger Food Porn",
-        "Valoracion": 4.1
+        "Valoracion": 4.1,
+        "Imagen": "burguer"
       },
       {
         "CoordenadaX": 37.387918407413508,
@@ -39,7 +42,8 @@ export default [
         "Precio": "€",
         "Tipo": "Bar de Tapas",
         "Titulo": "Bodeguita Romero",
-        "Valoracion": 4.3
+        "Valoracion": 4.3,
+        "Imagen": "bodeguita"
       },
       {
         "CoordenadaX": 37.386716044965162,
@@ -49,7 +53,8 @@ export default [
         "Precio": "€€",
         "Tipo": "Comida Mexicana",
         "Titulo": "Sed de México",
-        "Valoracion": 4.4
+        "Valoracion": 4.4,
+        "Imagen": "mexico"
       },
       {
         "CoordenadaX": 37.388556689453729,
@@ -59,7 +64,8 @@ export default [
         "Precio": "€",
         "Tipo": "Bar de Tapas",
         "Titulo": "Las Golondrinas",
-        "Valoracion": 4.3
+        "Valoracion": 4.3,
+        "Imagen": "golondrina"
       }
     ],
     "Patrimonio_Historico_Artistico": [
@@ -71,7 +77,9 @@ export default [
         "Id": 1,
         "Precio": 16.0,
         "Titulo": "Catedral de Sevilla ",
-        "Valoracion": 4.7
+        "Valoracion": 4.7,
+        "Imagen": "catedral"
+
       },
       {
         "CoordenadaX": 37.37708,
@@ -81,7 +89,8 @@ export default [
         "Id": 2,
         "Precio": 0.0,
         "Titulo": "Plaza de España",
-        "Valoracion": 4.8
+        "Valoracion": 4.8,
+        "Imagen": "plaza"
       },
       {
         "CoordenadaX": 37.384426,
@@ -91,7 +100,8 @@ export default [
         "Id": 3,
         "Precio": 13.5,
         "Titulo": "Real Alcazar",
-        "Valoracion": 4.7
+        "Valoracion": 4.7,
+        "Imagen": "alcazar"
       },
       {
         "CoordenadaX": 37.441798,
@@ -101,7 +111,8 @@ export default [
         "Id": 4,
         "Precio": 1.5,
         "Titulo": "Italica",
-        "Valoracion": 4.6
+        "Valoracion": 4.6,
+        "Imagen": "italica"
       },
       {
         "CoordenadaX": 37.392654,
@@ -111,7 +122,8 @@ export default [
         "Id": 5,
         "Precio": 1.5,
         "Titulo": "Museo de Bellas Artes de Sevilla",
-        "Valoracion": 4.6
+        "Valoracion": 4.6,
+        "Imagen": "museo"
       },
       {
         "CoordenadaX": 37.39883761742405,
@@ -121,7 +133,8 @@ export default [
         "Id": 6,
         "Precio": 1.8,
         "Titulo": "Centro Andaluz de Arte Contemporaneo",
-        "Valoracion": 4.4
+        "Valoracion": 4.4,
+        "Imagen": "caac"
       }
     ],
     "Sevilla_Desconocida": [
@@ -132,7 +145,8 @@ export default [
         "Id": 1,
         "Precio": 3.0,
         "Titulo": "Fábrica de Artillería",
-        "Valoracion": 4.5
+        "Valoracion": 4.5,
+        "Imagen": "artilleria"
       },
       {
         "CoordenadaX": 37.398092501960583,
@@ -141,7 +155,8 @@ export default [
         "Id": 2,
         "Precio": 0.0,
         "Titulo": "Panteón de los Sevillanos Ilustres",
-        "Valoracion": 4.7
+        "Valoracion": 4.7,
+        "Imagen": "panteon"
       },
       {
         "CoordenadaX": 37.390207100407132,
@@ -150,7 +165,8 @@ export default [
         "Id": 3,
         "Precio": 0.0,
         "Titulo": "Atarazanas",
-        "Valoracion": 3.9
+        "Valoracion": 3.9,
+        "Imagen": "atarazanas"
       },
       {
         "CoordenadaX": 37.402461728496633,
@@ -159,7 +175,8 @@ export default [
         "Id": 4,
         "Precio": 0,
         "Titulo": "Pabellón de Marruecos",
-        "Valoracion": 4.7
+        "Valoracion": 4.7,
+        "Imagen": "marruecos"
       },
       {
         "CoordenadaX": 37.397085309761025,
@@ -168,7 +185,8 @@ export default [
         "Id": 5,
         "Precio": 12,
         "Titulo": "Palacio de la condesa de Lebrija",
-        "Valoracion": 4.4
+        "Valoracion": 4.4,
+        "Imagen": "condesa"
       },
       {
         "CoordenadaX": 37.391578549096678,
@@ -177,7 +195,8 @@ export default [
         "Id": 6,
         "Precio": 2.1,
         "Titulo": "Centro de Cerámica de Triana",
-        "Valoracion": 4.2
+        "Valoracion": 4.2,
+        "Imagen": "ceramica"
       }
     ]
   }

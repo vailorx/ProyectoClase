@@ -39,7 +39,7 @@ data.map((item) => (
 
 </div>
 <div className='flex items-center justify-center w-screen h-2/3'>
-<NavLink to="/login" className="w-1/3 font-bold mt-30 btn btn-outline btn-warning" >Entrar </NavLink>
+<NavLink to="/explorar" className="w-1/3 font-bold mt-30 btn btn-outline btn-warning" >Entrar </NavLink>
 
 
   

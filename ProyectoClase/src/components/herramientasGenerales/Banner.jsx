@@ -1,10 +1,12 @@
-import React from 'react'
-import background from '../images/banner.jpg'
-export const Banner = () => {
-    
+import background from '../../images/banner.jpg'
+export const Banner = (props) => {
+  let backgroundResult;
+  if(props.url === "../../images/banner.jpg"){
+    backgroundResult = background;
+  }
   return (
     <>
-    <div className="hero min-h-1/2" style={ {backgroundImage: `url(${background})`}}>
+    <div className="hero min-h-1/2" style={ {backgroundImage: `url(${backgroundResult})`}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="text-center hero-content text-neutral-content">
     <div className="max-w-md">
