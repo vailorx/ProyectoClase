@@ -6,7 +6,7 @@ import { ListaGeneral } from '../Listas/ListaGeneral.jsx'
 export const Explorar = () => {   
   return(
     <>
-    <Banner url={"../../images/banner.jpg"}/>
+    <Banner url={"../../../images/banner.jpg"}/>
     <div className='w-full h-20 pt-3 pb-2 pl-3'>
         <p className='text-center'>En esta pagina mostramos todos los lugares que disponemos actualmente en nuestra base de datos. Son lugares de alta valoración actualmente en Sevilla, como podemos comprobar en su propia valoración obtenida directamente desde las opiniones de google. La principal idea de esta pagina web se encuentra en Que hacer hoy en nuestro menu de navegación que se encuentra arriba a la derecha, Echale un vistazo!</p>
     </div>
