@@ -11,7 +11,7 @@ export const Explorar = () => {
         <p className='text-center'>En esta pagina mostramos todos los lugares que disponemos actualmente en nuestra base de datos. Son lugares de alta valoración actualmente en Sevilla, como podemos comprobar en su propia valoración obtenida directamente desde las opiniones de google. La principal idea de esta pagina web se encuentra en Que hacer hoy en nuestro menu de navegación que se encuentra arriba a la derecha, Echale un vistazo!</p>
     </div>
     <div className='w-full h-10 pt-3 pl-5 mb-4'>
-        <p className='text-xl text-yellow-400'>Lista de restaurantes:</p>
+        <p className='text-xl text-yellow-400'>Lista de monumentos:</p>
         </div>
         <div className="m-5 cards-list">
     {
@@ -21,7 +21,7 @@ data[0].Patrimonio_Historico_Artistico.map((item) => (
       ))} 
             </div>
             <div className='w-full h-10 pt-3 pl-5 mb-4'>
-        <p className='text-xl text-yellow-400'>Lista de monumentos:</p>
+        <p className='text-xl text-yellow-400'>Lista de restaurantes:</p>
         </div>
             <div className="m-5 cards-list">
     {
@@ -31,7 +31,7 @@ data[0].Bares_Restaurantes.map((item) => (
       ))} 
             </div>
             <div className='w-full h-10 pt-3 pl-5 mb-4'>
-        <p className='text-xl text-yellow-400'>Lista de lugares de ocio:</p>
+        <p className='text-xl text-yellow-400'>Lista poco conocidos:</p>
         </div>
             <div className="m-5 cards-list">
     {
