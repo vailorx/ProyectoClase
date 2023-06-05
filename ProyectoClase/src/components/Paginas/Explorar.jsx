@@ -31,7 +31,7 @@ data[0].Bares_Restaurantes.map((item) => (
       ))} 
             </div>
             <div className='w-full h-10 pt-3 pl-5 mb-4'>
-        <p className='text-xl text-yellow-400'>Lista poco conocidos:</p>
+        <p className='text-xl text-yellow-400'>Lista lugares poco conocidos:</p>
         </div>
             <div className="m-5 cards-list">
     {
